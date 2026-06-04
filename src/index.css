@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.container{
+    @apply  max-w-360 mx-auto;
+}
+
+.nav-container{
+    @apply  flex items-center;
+}
+
+.nav-list{
+    @apply  flex items-center gap-8 mr-20;
+}
+
+.input-div{
+    @apply  w-lg;
+}
+
+.cart-nav{
+    @apply  ml-auto flex gap-x-4 relative;
+}
+
+#header{
+    @apply  py-2.75;
+}
+
+.cart-icon{
+    @apply  flex items-end;
+}
+
+
+/* ----------------header ends here------------------------------ */
