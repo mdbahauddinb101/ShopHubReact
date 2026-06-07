@@ -7,6 +7,7 @@ const Header = () => {
     <div className="nav-container">
           <img className="mr-8" src="/src/assets/images/ShopHub.png" alt="shophublogo" />
         <ul className="nav-list">
+          
           <li><a href="#">Home</a></li>
           <li><a href="#">Categories</a></li>
           <li><a href="#">Deals</a></li>
@@ -27,6 +28,7 @@ const Header = () => {
           
         </div>
     </div>
+    <img className="block md:hidden h-8 w-8" src="/src/assets/images/bars-.svg" alt="" />
       </div>
     </header>
     

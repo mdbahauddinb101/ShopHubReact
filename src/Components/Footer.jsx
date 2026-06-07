@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-container">
             <div className="first-div">
                 <h5 className="text-white font-bold text-[20px] leading-7 mb-4">ShopHub</h5>
-                <p className="text-[#9CA3AF] font-normal text-[16px] leading-6 mb-4">Your one-stop shop for everything you need.</p>
+                <p className="text-[#9CA3AF] font-normal text-[16px] leading-6 mb-4 w-50 md:w-67.25">Your one-stop shop for everything you need.</p>
                 <div className="flex gap-4">
                     <img src="/src/assets/images/facebook.png" alt="fb" />
                     <img src="/src/assets/images/twitter.png" alt="twitter" />

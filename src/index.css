@@ -10,7 +10,7 @@
 }
 
 .nav-list{
-    @apply  flex items-center gap-8 mr-20;
+    @apply hidden sm:hidden md:flex items-center gap-8 mr-20 ;
 }
 
 .input-div{
@@ -22,7 +22,7 @@
 }
 
 #header{
-    @apply  py-2.75;
+    @apply  py-2.75 px-3 md:px-0;
 }
 
 .cart-icon{
@@ -35,7 +35,7 @@
 /* ----------categories starts here------------------------ */
 
 .categories-container{
-    @apply  flex items-center justify-center gap-30;
+    @apply  flex items-center justify-center gap-30 flex-wrap md:flex-nowrap;
 }
 #categories{
     @apply  py-[64px];
@@ -44,7 +44,7 @@
 
 /*=============== featured starts here ============================*/
 .featured-container{
-    @apply  flex items-center justify-center gap-6;
+    @apply  flex items-center justify-center gap-6 flex-wrap md:flex-nowrap;
 }   
 
 #featured{
@@ -52,7 +52,7 @@
 }
 
 .featured-header{
-    @apply  flex items-center justify-between;
+    @apply  block md:flex items-center  justify-center md:justify-between text-center md:text-left mb-5 md:mb-0;
 }
 
 .featured-btn{
@@ -67,7 +67,7 @@
 
 
 .deal-container{
-    @apply  flex items-center justify-center gap-6;
+    @apply  flex items-center justify-center gap-6 flex-wrap md:flex-nowrap;
 }
 
 #deal{
@@ -76,7 +76,7 @@
      /* ==========banner starts here =====================*/
 
      .banner-container{
-        @apply  flex items-center justify-between;
+        @apply  flex flex-wrap sm:flex-wrap md:flex-nowrap items-center justify-center md:justify-between text-center md:text-left;
      }  
 
      #banner{
@@ -88,11 +88,11 @@
      /*-===================== foooter starts here========================== */
 
      .footer-container{
-        @apply  grid grid-cols-4;
+        @apply  grid grid-cols-2 md:grid-cols-4;
      }
 
      #footer{
-        @apply  py-12 bg-[#111827];
+        @apply  py-12 px-12 md:px-0 bg-[#111827];
      }
 
      .input-container{
