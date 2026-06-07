@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 .container{
-    @apply  max-w-360 mx-auto;
+    @apply  max-w-304 mx-auto box-border;
+;
 }
 
 .nav-container{
@@ -30,3 +31,70 @@
 
 
 /* ----------------header ends here------------------------------ */
+
+/* ----------categories starts here------------------------ */
+
+.categories-container{
+    @apply  flex items-center justify-center gap-30;
+}
+#categories{
+    @apply  py-[64px];
+}
+
+
+/*=============== featured starts here ============================*/
+.featured-container{
+    @apply  flex items-center justify-center gap-6;
+}   
+
+#featured{
+    @apply  py-16 bg-[#E5E7EB];
+}
+
+.featured-header{
+    @apply  flex items-center justify-between;
+}
+
+.featured-btn{
+    @apply  text-[#3B82F6] font-medium text-[16px] leading-6;
+   
+}
+
+/*=============== featured ends here ============================*/
+
+
+/*============ deal starts here ===========================*/
+
+
+.deal-container{
+    @apply  flex items-center justify-center gap-6;
+}
+
+#deal{
+    @apply  py-16;
+}
+     /* ==========banner starts here =====================*/
+
+     .banner-container{
+        @apply  flex items-center justify-between;
+     }  
+
+     #banner{
+        @apply  py-22.5  bg-gradient-to-r from-[#2563EB] to-[#1E40AF]
+     }
+
+
+
+     /*-===================== foooter starts here========================== */
+
+     .footer-container{
+        @apply  grid grid-cols-4;
+     }
+
+     #footer{
+        @apply  py-12 bg-[#111827];
+     }
+
+     .input-container{
+        @apply  flex items-center gap-0;    
+     }
