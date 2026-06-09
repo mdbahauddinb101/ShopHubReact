@@ -5,7 +5,7 @@ const Banner = () => {
 <section id="banner">
   <div className="container">
     <div className="banner-container">
-      <div className="flex flex-col justify-center md:block">
+      <div className="flex flex-col justify-center items-center md:block">
    <h1 className="font-bold text-[60px] leading-15 text-[#FFFFFF] mb-3">
     Summer Sale
    </h1>

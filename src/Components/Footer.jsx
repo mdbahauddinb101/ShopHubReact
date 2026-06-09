@@ -36,7 +36,7 @@ const Footer = () => {
                     <p className="font-normal text-[16px] leading-6 text-[#9CA3AF] mb-4">Subscribe for updates and deals</p>
                     <div className="input-container">
                         <input className="border border-[#E5E7EB] max-w-66.5 h-10 bg-white rounded-tl-lg rounded-bl-lg
-                         placeholder:text-[#9CA3AF] placeholder:pl-.75 focus:outline-none pl-4" type="text" placeholder="Your email" />
+                         placeholder:text-[#9CA3AF] placeholder:pl-.75 focus:outline-none pl-4 hidden sm:block" type="text" placeholder="Your email" />
                         <button className="bg-[#3B82F6] font-normal text-[16px]    text-[#FFFFFF] rounded-tr-lg rounded-br-lg p-2">Subscribe</button>
                     </div>
                 </div>
